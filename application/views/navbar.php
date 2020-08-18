@@ -27,6 +27,7 @@
         </li>
         <li class="nav-item">
             <a class="nav-link logout" href="<?php echo base_url('login/logout'); ?>">logout</a>
+            <a href="<?php echo base_url('account/change_password'); ?>">change passsword</a>
         </li>
         <?php } ?>
     </ul>
